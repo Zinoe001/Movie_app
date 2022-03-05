@@ -12,4 +12,4 @@ Map<int, Color> _primaryColor = {
   800: const Color(0XFF9400D3).withOpacity(0.9),
   900: const Color(0XFF9400D3),
 };
-final MaterialColor kPrimariyColor = MaterialColor((0XFF9400D3), _primaryColor);
+final MaterialColor kPrimariyColor = MaterialColor(0XFF9400D3, _primaryColor);

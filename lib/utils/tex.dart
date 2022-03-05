@@ -14,7 +14,7 @@ class AppText extends StatelessWidget {
       this.overflow = TextOverflow.ellipsis,
       this.centered = false,
       this.color})
-      : style = headingStyle1,
+      : style = headingStyle1.copyWith(color: color),
         super(key: key);
 
   /// this is heading 2 text, size = 28, weight = 600
@@ -23,7 +23,7 @@ class AppText extends StatelessWidget {
       this.overflow = TextOverflow.ellipsis,
       this.centered = false,
       this.color})
-      : style = headingStyle2,
+      : style = headingStyle2.copyWith(color: color),
         super(key: key);
 
   /// this is heading 3 text, size = 24, weight = 600
@@ -32,7 +32,7 @@ class AppText extends StatelessWidget {
       this.overflow = TextOverflow.ellipsis,
       this.centered = false,
       this.color})
-      : style = headingStyle3,
+      : style = headingStyle3.copyWith(color: color),
         super(key: key);
 
   /// this is heading 4 text, size = 20, weight = 600
@@ -41,7 +41,7 @@ class AppText extends StatelessWidget {
       this.overflow = TextOverflow.ellipsis,
       this.centered = false,
       this.color})
-      : style = headingStyle4,
+      : style = headingStyle4.copyWith(color: color),
         super(key: key);
 
   /// this is heading 5 text, size = 16, weight = 600
@@ -50,7 +50,7 @@ class AppText extends StatelessWidget {
       this.overflow = TextOverflow.ellipsis,
       this.centered = false,
       this.color})
-      : style = headingStyle5,
+      : style = headingStyle5.copyWith(color: color),
         super(key: key);
 
   /// this is heading 6 text, size = 12, weight = 600
@@ -59,7 +59,7 @@ class AppText extends StatelessWidget {
       this.overflow = TextOverflow.ellipsis,
       this.centered = false,
       this.color})
-      : style = headingStyle6,
+      : style = headingStyle6.copyWith(color: color),
         super(key: key);
 
   /// this is body 1 text, size = 14, weight = 500
@@ -68,7 +68,7 @@ class AppText extends StatelessWidget {
       this.overflow = TextOverflow.ellipsis,
       this.centered = false,
       this.color})
-      : style = bodyStyle1,
+      : style = bodyStyle1.copyWith(color: color),
         super(key: key);
 
   /// this is body 2 text, size = 10, weight = 500
@@ -77,7 +77,7 @@ class AppText extends StatelessWidget {
       this.overflow = TextOverflow.ellipsis,
       this.centered = false,
       this.color})
-      : style = bodyStyle2,
+      : style = bodyStyle2.copyWith(color: color),
         super(key: key);
 
   /// this is caption text, size = 10, weight = 400
@@ -86,7 +86,7 @@ class AppText extends StatelessWidget {
       this.overflow = TextOverflow.ellipsis,
       this.centered = false,
       this.color})
-      : style = captionStyle,
+      : style = captionStyle.copyWith(color: color),
         super(key: key);
 
   @override
